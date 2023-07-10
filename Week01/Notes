@@ -1,5 +1,13 @@
-Python excercize:
+Python excersize:
 
 This Python code loads data from a CSV file named "iris.csv" stored in a Google Drive folder and creates a Pandas dataframe named 'df'. The dataframe is then modified to have appropriate column names. The code then generates a boxplot using Seaborn to display the average sepal length of each species of iris.
 
 The next part of the code authenticates the user for accessing the Google Sheets API and imports data from a Google Sheet named "PGSS2023". The data is then converted into a Pandas dataframe named 'df2'. Finally, the last line of code selects a subset of rows and columns from the 'df2' dataframe and displays them.
+
+R excersize: 
+
+This R code employs the 'readr' library to read a CSV file named "iris.csv" from a specific file path and assign it to a data frame named 'iris'. The column names are not included in the CSV file, so the code assigns them manually. The code then converts the 'Species' column into a factor variable.
+
+The next part of the code uses the 'sapply' function to determine the class of each column in the 'iris' data frame. The 'table' function is then used to generate a frequency table of the 'Species' variable.
+
+Finally, the code generates a boxplot using the 'ggplot2' library to display the distribution of 'Sepal.Width' by 'Species'. The resulting plot is then saved as an image file at a specific file path using the 'save_plot' function from the 'cowplot' library.
