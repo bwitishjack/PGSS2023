@@ -1,1 +1,5 @@
+Python excercize:
 
+This Python code loads data from a CSV file named "iris.csv" stored in a Google Drive folder and creates a Pandas dataframe named 'df'. The dataframe is then modified to have appropriate column names. The code then generates a boxplot using Seaborn to display the average sepal length of each species of iris.
+
+The next part of the code authenticates the user for accessing the Google Sheets API and imports data from a Google Sheet named "PGSS2023". The data is then converted into a Pandas dataframe named 'df2'. Finally, the last line of code selects a subset of rows and columns from the 'df2' dataframe and displays them.
