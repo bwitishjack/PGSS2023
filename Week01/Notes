@@ -11,3 +11,7 @@ This R code employs the 'readr' library to read a CSV file named "iris.csv" from
 The next part of the code uses the 'sapply' function to determine the class of each column in the 'iris' data frame. The 'table' function is then used to generate a frequency table of the 'Species' variable.
 
 Finally, the code generates a boxplot using the 'ggplot2' library to display the distribution of 'Sepal.Width' by 'Species'. The resulting plot is then saved as an image file at a specific file path using the 'save_plot' function from the 'cowplot' library.
+
+Week 1.2 notes:
+
+Today we explored the use of OpenAI's CodeInterpreter and Monica (leveraging GPT3.5 via OpenAI API endpoints) to analyse the Iris dataset. The code for the same was transcribed into Week01/Colab1.ipynb as well as Week01/ChatGPTDataAnalysis.ipynb
